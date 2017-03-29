@@ -3071,9 +3071,3 @@ color: #000;
     
 /*end mz*/}
 
-/*Safari*/
- media all and (-webkit-min-device-pixel-ratio:0) {
-   .description__paragraph{
-    margin-bottom: 22px;
-   }
-}

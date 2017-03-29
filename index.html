@@ -5,6 +5,12 @@
 		<title>Document</title>
 		<link rel="stylesheet" href="css/style.css">
 	  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	  <script type="text/javascript">
+		var detect = navigator.userAgent.toLowerCase();
+		if((detect.indexOf('safari')) != -1) {
+		           document.write('<link href="style/safari.css" rel="stylesheet" type="text/css" />');
+		}
+		</script>
 	</head>
 	<body>
 		<div class="wrapper">
