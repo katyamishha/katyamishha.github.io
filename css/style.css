@@ -347,7 +347,10 @@ h3 {
   font-family: "MyriadProBold", sans-serif;
   line-height: 28px;
   margin-bottom: 50px; }
-
+.description__merit:after {
+  content: "";
+  display: table;
+  clear: both; }
 .description__merit-block {
   width: 200px;
   height: 187px;
