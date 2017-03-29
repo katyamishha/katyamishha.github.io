@@ -188,6 +188,7 @@ h3 {
 .user__input {
   float: left;
   width: 103px;
+  height: 37px;
   padding: 10px 0 8px 5px;
   box-sizing: border-box;
   border: 1px solid #ababab;
