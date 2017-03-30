@@ -2480,13 +2480,17 @@ color: #000;
   border-radius: 5px;
   outline: none; }
 .catalog-filtr__input::-webkit-input-placeholder {
-    color: #ababab; }
+    color: #ababab;
+    opacity: 1; }
 .catalog-filtr__input::-moz-placeholder {
-    color: #ababab; }
+    color: #ababab;
+    opacity: 1; }
 .catalog-filtr__input:-moz-placeholder {
-    color: #ababab; }
+    color: #ababab;
+    opacity: 1; }
 .catalog-filtr__input:-ms-input-placeholder {
-    color: #ababab;}
+    color: #ababab;
+    opacity: 1;}
 .catalog-filtr__price {
   margin-top: 10px;
   padding: 7px 10px 7px 5px;
