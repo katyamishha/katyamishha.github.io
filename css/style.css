@@ -3061,7 +3061,10 @@ color: #000;
     margin: 50px 0 25px;
 }
 .sidebar-section__price {
-    font-size: 14px;
+    font-size: 13px;
+}
+.catalog-filtr__price {
+    padding: 8px 10px 7px 5px;
 }
     
 /*end mz*/}
