@@ -170,26 +170,26 @@ h3 {
 .autorization__form-user, .autorization__form-password {
   margin: 20px 0 25px;
   float: left; }
-
-.autorization__form-user .fa {
-  display: block;
-  background: #cdcdcd;
-  color: #231f20;
+.user__button{
   height: 35px;
   width: 35px;
   float: left;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 10px 0;
+  background: #cdcdcd;
   border: 1px solid #ababab;
   border-right: none;
-  border-radius: 3px 0 0 3px; }
-
+  border-radius: 3px 0 0 3px;
+  padding: 8px 0;
+  box-sizing: border-box;
+}
+.autorization__form-user .fa {
+  color: #231f20;
+  text-align: center;
+   }
 .user__input {
   float: left;
   width: 103px;
-  height: 37px;
-  padding: 10px 0 8px 5px;
+  height: 35px;
+  padding: 0 0 0 5px;
   box-sizing: border-box;
   border: 1px solid #ababab;
   border-radius: 0 3px 3px 0;
@@ -3063,9 +3063,6 @@ color: #000;
   /*end ie*/ }
 /*Mozila*/
 @-moz-document url-prefix() {
-.autorization__form-user .fa{
-   height: 37px;
-}
     .call_title {
     margin: 50px 0 25px;
 }
