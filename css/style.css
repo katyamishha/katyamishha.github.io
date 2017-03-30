@@ -1242,7 +1242,7 @@ h3 {
   border-radius: 5px;
   width: 70px;
   color: #888;
-  font-size: 16px;
+  font-size: 13px;
   display: inline-block;
   outline: none; }
 
@@ -2497,7 +2497,6 @@ color: #000;
     opacity: 1;}
 .catalog-filtr__price {
   margin-top: 10px;
-  padding: 7px 10px 7px 5px;
   width: 77px; }
 .catalog-filtr__price::-webkit-input-placeholder {
     color: #ababab;
@@ -3060,12 +3059,7 @@ color: #000;
     .call_title {
     margin: 50px 0 25px;
 }
-.sidebar-section__price {
-    font-size: 13px;
-}
-.catalog-filtr__price {
-    padding: 8px 10px 7px 5px;
-}
+
     
 /*end mz*/}
 
