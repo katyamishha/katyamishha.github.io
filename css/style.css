@@ -2477,6 +2477,7 @@ color: #000;
 
 .catalog-filtr__input {
   width: 165px;
+  height: 35px;
   margin-right: 10px;
   padding: 8px 10px;
   box-sizing: border-box;
