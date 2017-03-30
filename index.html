@@ -1,244 +1,550 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-</head>
-<body>
-	<div class="wrapper">
-        <div class="content">
-            <header id="header" class="header">
-                <div class="container">
-                    <div class="header__logo logo">
-                        <a href="#" class="logo__link">
-                            <img src="img/logo.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="header__contacts contacts">
-                        <div class="header__select">
-                            <div class="header__our-city">Ваш город:</div>
-                            <a href="#" class="header__select-link">Комсомольск-на-Амуре <i class="fa fa-caret-down" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                        <div class="header__phone phone">+7 (423) 555-55-55</div>
-                        <div class="header__phone-place">Производство:</div>
-                        <div class="header__phone phone">+7 (351) 777-77-77</div>
-                    </div>
-                    <div class="header__autorization autorization">
-                        <div class="autorization__block">
-                            <p class="autorization__enter">Войдите или</p>
-                            <a href="" class="autorization__registration">зарегистрируйтесь</a>
-                            <div class="autorization__form-user">
-                                <button class="user__button"><i class="fa fa-user" aria-hidden="true"> </i></button>
-                                <input type="text" name="log" class="user__input" placeholder="Username">
-                            </div>
-                            <div class="autorization__form-password">
-                                <input type="password" name="log" class="password__input" placeholder="Password">
-                            </div>
-                            <a href="#" class="autorization__forget">Забыли логин или пароль?</a>
-                        </div>
-                    </div>
-                    <div class="header__basket basket">
-                        <div class="basket__view-empty"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                           Корзина:</div>
-                           <div class="basket__number"> <span>3</span> позиции</div>
-                           <div class="basket__price"><span>1 550 000 </span> р.</div>
-                           <a href="#" class="basket__go-shopping">Перейти в корзину</a>
-                       </div>
-                   </div>
-               </header>
-               <nav class="main-menu-nav">
-                <div class="container">
-                    <ul class="main-menu">
-                        <li class="main-menu__item main-menu__item--home"><a href="#" class="main-menu__link main-menu__link--home"><i class="fa fa-home" aria-hidden="true"></i>
-                        </a></li>
-                        <li class="main-menu__item"><a href="#" class="main-menu__link">Производство</a></li>
-                        <li class="main-menu__item"><a href="#" class="main-menu__link">Каталог товаров</a></li>
-                        <li class="main-menu__item main-menu__item--active"><a href="#" class="main-menu__link">Контакты</a></li>
-                        <li class="main-menu__item"><a href="#" class="main-menu__link">Проектировщику и дизайнеру</a></li>
-                        <li class="main-menu__item"><a href="#" class="main-menu__link">Отзывы</a></li>
-                    </ul>
-                    <div class="main-menu-price-list"><a href="#" class="price-list__link"> <i class="fa fa-table" aria-hidden="true"></i>
-                      Скачать прайслист</a></div>
-                      <div class="main-menu__search"><button class="btn__search"><i class="fa fa-search" aria-hidden="true"></i>
-                      </button></div>
-                  </div>
-              </nav>
-              <section class="breadcrumbs">
-                <div class="container">
-                    <a href="#" class="breadcrumbs__link">Главная</a> 
-                    <span class="breadcrumbs__separator"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
-                    <span class="breadcrumbs__link-active">Корзина</span>
-                </div>
-            </section>
-            <section class="main__block">
-                <div class="container">
-                    <h2 class="main__title">Корзина</h2>
-                    <table class="basket__table">
-                        <tr class="basket__table-tr">
-                            <th class="basket__table-th basket__table-th-artikle">Артикул</th>
-                            <th class="basket__table-th td--size-l">Наименование:</th>
-                            <th class="basket__table-th">Фото:</th>
-                            <th class="basket__table-th basket__table-th-price">Цена <br>(дилер):</th>
-                            <th class="basket__table-th basket__table-th-price">Цена <br>(розн.):</th>
-                            <th class="basket__table-th">Наличие:</th>
-                            <th class="basket__table-th basket__table-th-col">Кол-во:</th>
-                            <th class="basket__table-th basket__table-th--last"></th>
-                        </tr>
-                        <tr class="basket__table-tr">
-                            <td class="basket__table-td">2151897Ы</td>
-                            <td class="basket__table-td basket__table-td--owerflow td--size-l"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdla shklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
-                            <td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a></td>
-                            <td class="basket__table-td">150 000 р.</td>
-                            <td class="basket__table-td">2 200 000 р.</td>
-                            <td class="basket__table-td basket__table-td-number">4шт.</td>
-                            <td class="basket__table-td-input">
-                                <div class="basket__table-input">
-                                    <span class="basket__table-span">1</span>
-                                    <a href="#" class="table-input table-input-up"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-                                    <a href="#" class="table-input table-input-down"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                                </div>
-                            </td>
-                            <td class="basket__table-td basket__table-times"><a href="#" ><i class="fa fa-times" aria-hidden="true"></i></a></td>
-                        </tr>
-                        <tr class="basket__table-tr">
-                            <td class="basket__table-td">2151897Ы</td>
-                            <td class="basket__table-td basket__table-td--owerflow td--size-l"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdla shklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
-                            <td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a></td>
-                            <td class="basket__table-td">150 000 р.</td>
-                            <td class="basket__table-td">2 200 000 р.</td>
-                            <td class="basket__table-td basket__table-td-number">4шт.</td>
-                            <td class="basket__table-td-input">
-                                <div class="basket__table-input">
-                                    <span class="basket__table-span">1</span>
-                                    <a href="#" class="table-input table-input-up"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-                                    <a href="#" class="table-input table-input-down"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                                </div>
-                            </td>
-                            <td class="basket__table-td basket__table-times"><a href="#" ><i class="fa fa-times" aria-hidden="true"></i></a></td>
-                        </tr>
-                        <tr class="basket__table-tr">
-                            <td class="basket__table-td">2151897Ы</td>
-                            <td class="basket__table-td basket__table-td--owerflow td--size-l"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdla shklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
-                            <td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a></td>
-                            <td class="basket__table-td">150 000 р.</td>
-                            <td class="basket__table-td">2 200 000 р.</td>
-                            <td class="basket__table-td basket__table-td-number">4шт.</td>
-                            <td class="basket__table-td-input">
-                                <div class="basket__table-input">
-                                    <span class="basket__table-span">1</span>
-                                    <a href="#" class="table-input table-input-up"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-                                    <a href="#" class="table-input table-input-down"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                                </div>
-                            </td>
-                            <td class="basket__table-td basket__table-times"><a href="#" ><i class="fa fa-times" aria-hidden="true"></i></a></td>
-                        </tr>
-                        <tr class="basket__table-tr">
-                            <td class="basket__table-td">2151897Ы</td>
-                            <td class="basket__table-td basket__table-td--owerflow td--size-l"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdla shklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
-                            <td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a></td>
-                            <td class="basket__table-td">150 000 р.</td>
-                            <td class="basket__table-td">2 200 000 р.</td>
-                            <td class="basket__table-td basket__table-td-number">4шт.</td>
-                            <td class="basket__table-td-input">
-                                <div class="basket__table-input">
-                                    <span class="basket__table-span">1</span>
-                                    <a href="#" class="table-input table-input-up"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-                                    <a href="#" class="table-input table-input-down"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                                </div>
-                            </td>
-                            <td class="basket__table-td basket__table-times"><a href="#" ><i class="fa fa-times" aria-hidden="true"></i></a></td>
-                        </tr>
-                        <tr class="basket__table-tr">
-                            <td class="basket__table-td">2151897Ы</td>
-                            <td class="basket__table-td basket__table-td--owerflow td--size-l"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdla shklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
-                            <td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img new__recl-img--down"><img src="img/img-top.png" alt=""></div></a></td>
-                            <td class="basket__table-td">150 000 р.</td>
-                            <td class="basket__table-td">2 200 000 р.</td>
-                            <td class="basket__table-td basket__table-td-number">4шт.</td>
-                            <td class="basket__table-td-input">
-                                <div class="basket__table-input">
-                                    <span class="basket__table-span">1</span>
-                                    <a href="#" class="table-input table-input-up"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-                                    <a href="#" class="table-input table-input-down"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                                </div>
-                            </td>
-                            <td class="basket__table-td basket__table-times"><a href="#" ><i class="fa fa-times" aria-hidden="true"></i></a></td>
-                        </tr>
-                        <tr class="basket__table-tr">
-                            <td class="basket__table-td">2151897Ы</td>
-                            <td class="basket__table-td basket__table-td--owerflow td--size-l"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdla shklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
-                            <td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img new__recl-img--down"><img src="img/img-top.png" alt=""></div></a></td>
-                            <td class="basket__table-td">150 000 р.</td>
-                            <td class="basket__table-td">2 200 000 р.</td>
-                            <td class="basket__table-td basket__table-td-number">4шт.</td>
-                            <td class="basket__table-td-input">
-                                <div class="basket__table-input">
-                                    <span class="basket__table-span">1</span>
-                                    <a href="#" class="table-input table-input-up"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-                                    <a href="#" class="table-input table-input-down"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                                </div>
-                            </td>
-                            <td class="basket__table-td basket__table-times"><a href="#" ><i class="fa fa-times" aria-hidden="true"></i></a></td>
-                        </tr>
-                        <tr class="basket__table-tr">
-                            <td class="basket__table-td">2151897Ы</td>
-                            <td class="basket__table-td basket__table-td--owerflow td--size-l"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdla shklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
-                            <td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img new__recl-img--down"><img src="img/img-top.png" alt=""></div></a></td>
-                            <td class="basket__table-td">150 000 р.</td>
-                            <td class="basket__table-td">2 200 000 р.</td>
-                            <td class="basket__table-td basket__table-td-number">4шт.</td>
-                            <td class="basket__table-td-input">
-                                <div class="basket__table-input">
-                                    <span class="basket__table-span">1</span>
-                                    <a href="#" class="table-input table-input-up"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-                                    <a href="#" class="table-input table-input-down"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                                </div>
-                            </td>
-                            <td class="basket__table-td basket__table-times"><a href="#" ><i class="fa fa-times" aria-hidden="true"></i></a></td>
-                        </tr>
-                        <tr class="basket__table-tr">
-                            <td class="basket__table-td">2151897Ы</td>
-                            <td class="basket__table-td basket__table-td--owerflow td--size-l"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdla shklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
-                            <td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img new__recl-img--down"><img src="img/img-top.png" alt=""></div></a></td>
-                            <td class="basket__table-td">150 000 р.</td>
-                            <td class="basket__table-td">2 200 000 р.</td>
-                            <td class="basket__table-tdbasket__table-td-number basket__table-td-number">4шт.</td>
-                            <td class="basket__table-td-input">
-                                <div class="basket__table-input">
-                                    <span class="basket__table-span">1</span>
-                                    <a href="#" class="table-input table-input-down"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                                    <a href="#" class="table-input table-input-up"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
-                                </div>
-                            </td>
-                            <td class="basket__table-td basket__table-times"><a href="#" ><i class="fa fa-times" aria-hidden="true"></i></a></td>
-                        </tr>
-                        <tr class="basket__table-tr-last">
-                            <td colspan="4" class="basket__table-td-last">Итого:</td>
-                            <td colspan="4" class="basket__table-td-last">85 000 000 р.</td>
-                        </tr>
-                    </table>
-                    <div class="basker__block-btn">
-                        <a href="#" class="item-link basket__btn basket__btn--green">Сохранить в *.XLS <i class="fa fa-table" aria-hidden="true"></i></a>
-                        <a href="#" class="item-link basket__btn basket__btn--red">Отправить заказ <i class="fa fa-check" aria-hidden="true"></i></a>
-                    </div>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="content">
+				<header id="header" class="header">
+		<div class="container">
+			<div class="header__logo logo">
+				<a href="#" class="logo__link">
+					<img src="img/logo.jpg" alt="">
+				</a>
+			</div>
+			<div class="header__contacts contacts">
+				<div class="header__select">
+					<div class="header__our-city">Ваш город:</div>
+					<a href="#" class="header__select-link">Комсомольск-на-Амуре <i class="fa fa-caret-down" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="header__phone phone">+7 (423) 555-55-55</div>
+				<div class="header__phone-place">Производство:</div>
+				<div class="header__phone phone">+7 (351) 777-77-77</div>
+			</div>
+			<div class="header__dealer-profile">
+				<div class="dealer-profile__block">
+					<div class="dealer__paragraph">Добро пожаловать,</div>
+					<div class="dealer__name"><a href="#" class="dealer__name-link">Андрей</a></div>
+					<div class="dealer__statys">Статус:<span>дилер</span></div>
+					<div class="dealer__block">
+						<div class="dealer__profail"><i class="fa fa-cog" aria-hidden="true"></i> <a href="#" class="dealer__name-link">Профиль</a></div>
+						<div class="dealer__exit"><i class="fa fa-sign-out" aria-hidden="true"></i>
+							<a href="#" class="dealer__name-link">Выход</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="header__basket basket">
+					<div class="basket__view-empty"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						Корзина:</div>
+						<div class="basket__number"> <span>3</span> позиции</div>
+						<div class="basket__price"><span>1 550 000 </span> р.</div>
+						<a href="#" class="basket__go-shopping">Перейти в корзину</a>
+					</div>
+				</div>
+			</header>
+			<nav class="main-menu-nav">
+				<div class="container">
+					<ul class="main-menu">
+						<li class="main-menu__item main-menu__item--home"><a href="#" class="main-menu__link main-menu__link--home"><i class="fa fa-home" aria-hidden="true"></i>
+						</a></li>
+						<li class="main-menu__item"><a href="#" class="main-menu__link">Производство</a></li>
+						<li class="main-menu__item"><a href="#" class="main-menu__link">Каталог товаров</a></li>
+						<li class="main-menu__item main-menu__item--active"><a href="#" class="main-menu__link">Контакты</a></li>
+						<li class="main-menu__item"><a href="#" class="main-menu__link">Кабинет дилера</a></li>
+						<li class="main-menu__item"><a href="#" class="main-menu__link">Отзывы</a></li>
+					</ul>
+					<div class="main-menu-price-list"><a href="#" class="price-list__link dealer-list__download"> <i class="fa fa-folder" aria-hidden="true"></i>
+						Файлы для скачивания</a></div>
+						<div class="main-menu__search"><button class="btn__search"><i class="fa fa-search" aria-hidden="true"></i>
+						</button></div>
+					</div>
+				</nav>
+				<section class="breadcrumbs">
+					<div class="container">
+						<a href="#" class="breadcrumbs__link">Главная</a> 
+						<span class="breadcrumbs__separator"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+						<span class="breadcrumbs__link-active">Кабинет диллера</span>
+					</div>
+				</section>
+				<section class="main__block">
+					<div class="container">
+						<h2 class="main__title">Кабинет диллера</h2>
+						<div class="notebook">
+							<input type="radio" name="notebook1" id="notebook1_1" class="notebook__input" checked>
+							<label for="notebook1_1" class="notebook__label" >Каталог товаров</label>
+							<input type="radio" name="notebook1" id="notebook1_2" class="notebook__input">
+							<label for="notebook1_2" class="notebook__label" >Заказы</label>
+							<input type="radio" name="notebook1" id="notebook1_3" class="notebook__input">
+							<label for="notebook1_3" class="notebook__label" >Рекламации</label>
+							<input type="radio" name="notebook1" id="notebook1_4" class="notebook__input">
+							<label for="notebook1_4" class="notebook__label" >Профиль компании</label>
+							<input type="radio" name="notebook1" id="notebook1_5" class="notebook__input">
+							<label for="notebook1_5" class="notebook__label" >Логин и пароль</label>
+							<div class="notebook__inset">
+								<div class="notebook__inset-catalog">
+									<div class="notebook__inset-catalog-filtr">
+										<div class="catalog-filtr__search">
+											<p class="catalog-filtr__title">Поиск:</p>
+											<input type="text" class="catalog-filtr__input" placeholder="Артикул, название">
+										</div>
+										<div class="catalog-filtr__section">
+											<p class="catalog-filtr__title">Раздел:</p>
+											<select name = "name[]" class="registration__block-input registration__block-input--size-s registration__block--select">
+												<option disabled>Варианты</option>
+												<option value = "Выбрать раздел">Выбрать раздел</option>
+											</select>
+										</div>
+										<div class="delimiter"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+										<div class="catalog-filtr__section catalog-filtr__section-m">
+											<p class="catalog-filtr__title">Вид товара:</p>
+											<select name = "name[]" class="registration__block-input registration__block-input--size-s registration__block--select">
+												<option disabled>Варианты</option>
+												<option value = "Выбрать раздел">Выбрать вид товара</option>
+											</select>
+										</div>
+										<div class="catalog-filtr__section2">
+											<p class="catalog-filtr__title">Цена:</p>
+											<form>
+												<input type="text" name="price" class="sidebar-section__price catalog-filtr__price"  placeholder="от 200">
+												<div class="sidebar-section__tire">-</div>
+												<input type="text" name="price" class="sidebar-section__price catalog-filtr__price" placeholder="до 1500000">
+											</form>
+										</div>
+										<div class="catalog-filtr__section3">
+											<p class="catalog-filtr__title">Наличие:</p>
+											<div class="switch"><div class="switch__circl"></div></div>
+										</div>
+									</div>
+									<table class="basket__table inset-catalog__table">
+										<tr class="basket__table-tr">
+											<th class="basket__table-th inset-catalog__table-th">Артикул:</th>
+											<th class="basket__table-th inset-catalog__table-th">Раздел:</th>
+											<th class="basket__table-th inset-catalog__table-th">Вид товара:</th>
+											<th class="basket__table-th inset-catalog__table-th">Наименование:</th>
+											<th class="basket__table-th inset-catalog__table-th">Фото:</th>
+											<th class="basket__table-th inset-catalog__table-th">Цена (дилер):</th>
+											<th class="basket__table-th inset-catalog__table-th">Цена (розн.):</th>
+											<th class="basket__table-th inset-catalog__table-th">Наличие:</th>
+											<th class="basket__table-th inset-catalog__table-th">Заказать</th>
+										</tr>
+										<tr class="basket__table-tr ">
+											<td class="basket__table-td">2151897Ы</td>
+											<td class="basket__table-td">ИНД(<a href="#" class="description__product">?</a>)</td>
+											<td class="basket__table-td">элемент</td>
+											<td class="basket__table-td basket__table-td--owerflow"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdla shklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+											<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a></td>
+											<td class="basket__table-td">150 000 р.</td>
+											<td class="basket__table-td">2 200 000 р.</td>
+											<td class="basket__table-td">4шт.</td>
+											<td class="basket__table-td basket__table-shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></td>
+										</tr>
+										<tr class="basket__table-tr">
+											<td class="basket__table-td">2151897Ы</td>
+											<td class="basket__table-td">ИНД(<a href="#" class="description__product">?</a>)</td>
+											<td class="basket__table-td">элемент</td>
+											<td class="basket__table-td basket__table-td--owerflow"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdlashklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+											<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a></td>
+											<td class="basket__table-td">150 000 р.</td>
+											<td class="basket__table-td">2 200 000 р.</td>
+											<td class="basket__table-td">4шт.</td>
+											<td class="basket__table-td basket__table-shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></td>
+										</tr>
+										<tr class="basket__table-tr">
+											<td class="basket__table-td">2151897Ы</td>
+											<td class="basket__table-td">ИНД(<a href="#" class="description__product">?</a>)</td>
+											<td class="basket__table-td">элемент</td>
+											<td class="basket__table-td basket__table-td--owerflow"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdlashklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+											<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a>
+											</td>
+											<td class="basket__table-td">150 000 р.</td>
+											<td class="basket__table-td">2 200 000 р.</td>
+											<td class="basket__table-td">4шт.</td>
+											<td class="basket__table-td basket__table-shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></td>
+										</tr>
+										<tr class="basket__table-tr">
+											<td class="basket__table-td">2151897Ы</td>
+											<td class="basket__table-td">ИНД(<a href="#" class="description__product">?</a>)</td>
+											<td class="basket__table-td">элемент</td>
+											<td class="basket__table-td basket__table-td--owerflow"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdlashklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+											<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a>
+											</td>
+											<td class="basket__table-td">150 000 р.</td>
+											<td class="basket__table-td">2 200 000 р.</td>
+											<td class="basket__table-td">4шт.</td>
+											<td class="basket__table-td basket__table-shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></td>
+										</tr>
+										<tr class="basket__table-tr">
+											<td class="basket__table-td">2151897Ы</td>
+											<td class="basket__table-td">ИНД(<a href="#" class="description__product">?</a>)</td>
+											<td class="basket__table-td">элемент</td>
+											<td class="basket__table-td basket__table-td--owerflow"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdlashklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+											<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img new__recl-img--down"><img src="img/img-top.png" alt=""></div></a>
+											</td>
+											<td class="basket__table-td">150 000 р.</td>
+											<td class="basket__table-td">2 200 000 р.</td>
+											<td class="basket__table-td">4шт.</td>
+											<td class="basket__table-td basket__table-shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></td>
+										</tr>
+										<tr class="basket__table-tr">
+											<td class="basket__table-td">2151897Ы</td>
+											<td class="basket__table-td">ИНД(<a href="#" class="description__product">?</a>)</td>
+											<td class="basket__table-td">элемент</td>
+											<td class="basket__table-td basket__table-td--owerflow"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdlashklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+											<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img new__recl-img--down"><img src="img/img-top.png" alt=""></div></a>
+											</td>
+											<td class="basket__table-td">150 000 р.</td>
+											<td class="basket__table-td">2 200 000 р.</td>
+											<td class="basket__table-td">4шт.</td>
+											<td class="basket__table-td basket__table-shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></td>
+										</tr>
+										<tr class="basket__table-tr">
+											<td class="basket__table-td">2151897Ы</td>
+											<td class="basket__table-td">ИНД(<a href="#" class="description__product">?</a>)</td>
+											<td class="basket__table-td">элемент</td>
+											<td class="basket__table-td basket__table-td--owerflow"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdlashklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+											<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img new__recl-img--down"><img src="img/img-top.png" alt=""></div></a></td>
+											<td class="basket__table-td">150 000 р.</td>
+											<td class="basket__table-td">2 200 000 р.</td>
+											<td class="basket__table-td">4шт.</td>
+											<td class="basket__table-td basket__table-shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></td>
+										</tr>
+										<tr class="basket__table-tr inset-catalog__table-tr">
+											<td class="basket__table-td">2151897Ы</td>
+											<td class="basket__table-td">ИНД(<a href="#" class="description__product">?</a>)</td>
+											<td class="basket__table-td">элемент</td>
+											<td class="basket__table-td basket__table-td--owerflow"><a href="#" class="basket__table-link">Прилавок угловой 90 внешybq ncskauhdlashklahdo;a <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+											<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img new__recl-img--down"><img src="img/img-top.png" alt=""></div></a></td>
+											<td class="basket__table-td">150 000 р.</td>
+											<td class="basket__table-td">2 200 000 р.</td>
+											<td class="basket__table-td">4шт.</td>
+											<td class="basket__table-td basket__table-shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></td>
+										</tr>
+									</table>
+									<div class="basker__block-btn catalog-filtr__block-btn">
+										<a href="#" class="item-link basket__btn basket__btn--green">Сохранить в *.XLS <i class="fa fa-table" aria-hidden="true"></i></a>
+										<a href="#" class="item-link basket__btn basket__btn--red">Сформировать заказ <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="notebook__inset">
+								<div class="notebook__inset-order">
+									<div class="header__complaint">
+										<div class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+										<p class="header__complaint-data">Заказ № <span class="header__complaint-number">136547</span></p>
+										<p class="header__complaint-time">20:05 (МСК)</p>
+										<p class="header__complaint-number-order"><i class="fa fa-calendar" aria-hidden="true"></i> <span>4 ноя 2017</span></p>
+										<a href="#" class="item-link basket__btn basket__btn--red header__complaint-btn">Повторить заказ <i class="fa fa-repeat" aria-hidden="true"></i></a>
+									</div>
+									<div class="content__complaint">
+										<table class="basket__table catalog__table order__table">
+											<tr class="basket__table-tr">
+												<td class="basket__table-td">1.</td>
+												<td class="basket__table-td">2151897Ы</td>
+												<td class="basket__table-td contant__complaint-table-td"><a href="#" class="basket__table-link">Позиция 03 <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+												<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a>
+												</td>
+												<td class="basket__table-td">1шт.</td>
+												<td class="basket__table-td">500 000 р.</td>
+												<td class="basket__table-td basket__bolt">
+												<a href="#" class="basket__bolt-link"><i class="fa fa-bolt" aria-hidden="true"></i>
+												<div class="new__recl">Создать рекламацию</div>
+												</a>
+												</td>
+											</tr>
+											<tr class="basket__table-tr">
+												<td class="basket__table-td">2.</td>
+												<td class="basket__table-td">2151897Ы</td>
+												<td class="basket__table-td contant__complaint-table-td"><a href="#" class="basket__table-link">Позиция 03 <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+												<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a>
+												</td>
+												<td class="basket__table-td">1шт.</td>
+												<td class="basket__table-td">500 000 р.</td>
+												<td class="basket__table-td basket__bolt"><a href="#" class="basket__bolt-link"><i class="fa fa-bolt" aria-hidden="true"></i>
+												<div class="new__recl">Создать рекламацию</div>
+												</a></td>
+											</tr>
+											<tr class="basket__table-tr">
+												<td class="basket__table-td">3.</td>
+												<td class="basket__table-td">2151897Ы</td>
+												<td class="basket__table-td contant__complaint-table-td"><a href="#" class="basket__table-link">Пщзиция выфва фвафываваываыфваывафывафывафывывфывфывфы05 <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+												<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a>
+												</td>
+												<td class="basket__table-td">1шт.</td>
+												<td class="basket__table-td">500 000 р.</td>
+												<td class="basket__table-td basket__bolt"><a href="#" class="basket__bolt-link"><i class="fa fa-bolt" aria-hidden="true"></i>
+												<div class="new__recl">Создать рекламацию</div>
+												</a></td>
+											</tr>
+											<tr class="basket__table-tr">
+												<td class="basket__table-td">4.</td>
+												<td class="basket__table-td">2151897Ы</td>
+												<td class="basket__table-td contant__complaint-table-td"><a href="#" class="basket__table-link">Позиция ывавафватффывафвфыаф04 <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+												<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a>
+												</td>
+												<td class="basket__table-td">1шт.</td>
+												<td class="basket__table-td">500 000 р.</td>
+												<td class="basket__table-td basket__bolt"><a href="#" class="basket__bolt-link"><i class="fa fa-bolt" aria-hidden="true"></i>
+												<div class="new__recl">Создать рекламацию</div>
+												</a></td>
+											</tr>
+											<tr class="basket__table-tr">
+												<td colspan="5" class="basket__table-td-last">Итого:</td>
+												<td colspan="5" class="basket__table-td-last">2 000 000 р.</td>
+											</tr>
+										</table>
+									</div>
+									<div class="header__complaint">
+										<div class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+										<p class="header__complaint-data">Заказ № <span class="header__complaint-number">136547</span></p>
+										<p class="header__complaint-time">20:05 (МСК)</p>
+										<p class="header__complaint-number-order"><i class="fa fa-calendar" aria-hidden="true"></i> <span>4 ноя 2017</span></p>
+										<a href="#" class="item-link basket__btn basket__btn--red header__complaint-btn">Повторить заказ <i class="fa fa-repeat" aria-hidden="true"></i></a>
+									</div>
+									<div class="content__complaint">
+										<table class="basket__table catalog__table order__table">
+											<tr class="basket__table-tr">
+												<td class="basket__table-td">1.</td>
+												<td class="basket__table-td">2151897Ы</td>
+												<td class="basket__table-td contant__complaint-table-td"><a href="#" class="basket__table-link">Позиция 03 <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+												<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a>
+												</td>
+												<td class="basket__table-td">1шт.</td>
+												<td class="basket__table-td">500 000 р.</td>
+												<td class="basket__table-td basket__bolt"><a href="#" class="basket__bolt-link"><i class="fa fa-bolt" aria-hidden="true"></i>
+												<div class="new__recl">Создать рекламацию</div>
+												</a></td>
+											</tr>
+											<tr class="basket__table-tr">
+												<td class="basket__table-td">2.</td>
+												<td class="basket__table-td">2151897Ы</td>
+												<td class="basket__table-td contant__complaint-table-td"><a href="#" class="basket__table-link">Позиция 03<div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+												<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a>
+												</td>
+												<td class="basket__table-td">1шт.</td>
+												<td class="basket__table-td">500 000 р.</td>
+												<td class="basket__table-td basket__bolt"><a href="#" class="basket__bolt-link"><i class="fa fa-bolt" aria-hidden="true"></i>
+												<div class="new__recl">Создать рекламацию</div>
+												</a></td>
+											</tr>
+											<tr class="basket__table-tr">
+												<td class="basket__table-td">3.</td>
+												<td class="basket__table-td">2151897Ы</td>
+												<td class="basket__table-td contant__complaint-table-td"><a href="#" class="basket__table-link">Пщзиция выфва фвафываваываыфваывафывафывафывывфывфывфы05 <div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a></td>
+												<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a>
+												</td>
+												<td class="basket__table-td">1шт.</td>
+												<td class="basket__table-td">500 000 р.</td>
+												<td class="basket__table-td basket__bolt"><a href="#" class="basket__bolt-link"><i class="fa fa-bolt" aria-hidden="true"></i>
+												<div class="new__recl">Создать рекламацию</div>
+												</a></td>
+											</tr>
+											<tr class="basket__table-tr">
+												<td class="basket__table-td">4.</td>
+												<td class="basket__table-td">2151897Ы</td>
+												<td class="basket__table-td contant__complaint-table-td"><a href="#" class="basket__table-link">Позиция ывавафватффывафвфыаф04
+												<div class="new__recl new__recl-long">При наведении на название всплывает комментарий с полным названием</div></a>
+												</td>
+												<td class="basket__table-td basket__table-camera"><a href="" class="basket__table-link basket__table-link--no"><i class="fa fa-camera" aria-hidden="true"></i> <div class="new__recl new__recl-img"><img src="img/img-top.png" alt=""></div></a>
+												</td>
+												<td class="basket__table-td">1шт.</td>
+												<td class="basket__table-td">500 000 р.</td>
+												<td class="basket__table-td basket__bolt"><a href="#" class="basket__bolt-link"><i class="fa fa-bolt" aria-hidden="true"></i>
+												<div class="new__recl">Создать рекламацию</div>
+												</a></td>
+											</tr>
+											<tr class="basket__table-tr">
+												<td colspan="5" class="basket__table-td-last">Итого:</td>
+												<td colspan="5" class="basket__table-td-last">2 000 000 р.</td>
+											</tr>
+										</table>
+									</div>
+									<div class="header__complaint">
+										<div class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+										<p class="header__complaint-data">Заказ № <span class="header__complaint-number">136547</span></p>
+										<p class="header__complaint-time">20:05 (МСК)</p>
+										<p class="header__complaint-number-order"><i class="fa fa-calendar" aria-hidden="true"></i> <span>4 ноя 2017</span></p>
+										<a href="#" class="item-link basket__btn basket__btn--red header__complaint-btn">Повторить заказ <i class="fa fa-repeat" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="notebook__inset">
+								<div class="notebook__inset-complaint">
+									<div class="complaint__new">
+										<div class="registration__block-form complaint__block-form">
+											<p class="anketa__block-title complaint__title">Новыя рекламация</p>
+											<input type="text" name="name" class="registration__block-input complaint__block-input--size-xl" placeholder="Тема">
+											<input type="text" name="organization" class="registration__block-input complaint__block-input--size-s" placeholder="Заказ №">
+											<input type="text" name="inn" class="registration__block-input complaint__block-input--size-s" placeholder="Серийный № оборудования">
+											<input type="text" name="ogrn" class="registration__block-input complaint__block-input--size-xl" placeholder="Наименование оборудования">
+											<textarea name="" id="" cols="30" rows="7" class="registration__block-input complaint__block-textarea--size-xl" placeholder="Текст"></textarea>
+											<div class="attached-file"><span>001.jpg</span> <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+											<div class="attached-file"><span>002.jpg</span> <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+											<input type="text" name="ogrn" class="registration__block-input complaint__block-input--size-l" placeholder="Выбрать файл">
+											<a href="#" class="item-link complaint__download-btn">Загрузить <i class="fa fa-check" aria-hidden="true"></i> </a>
+											<div class="clearfix"></div>
+											<div class="registration__block-text complaint__block-text">
+												Фотографии необходимы нашим специалистам для установления причины дефекта. <br>
+												Просим вас загружать качественные фотографии, на которых явно виден дефект с разных ракурсов.
+											</div>
+											<a href="#" class="item-link complaint__new-btn">Создать рекламацию <i class="fa fa-exclamation-circle" aria-hidden="true"></i> </a>
+										</div>
+									</div>
+									<div class="complaint_name">
+										<p class="card-product__paragraph-normal complaint_name__paragraph-normal">Рекламацию рассмотрит:</p>
+										<div class="manadger__block complaint_name__block">
+											<img src="img/autor.jpg" alt="">
+											<div class="autor__name complaint_name-autor">Имя Фамилия</div>
+											<div class="autor__position complaint_name-position">Руководитель сервисной службы</div>
+											<div class="manadger__phone complaint_name-phone">+7(351) <span class="manadger__phone-bold">740-04-04</span> (приемная)</div>
+											<div class="contact__info-email"><a href="#" class="contact__info-link">mail@chtt.ru</a></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+									<hr>
+									<p class="anketa__block-title complaint__title">История рекламаций</p>
+									<div class="header__complaint anketa-header__complaint">
+										<div class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+										<p class="header__complaint-data"><i class="fa fa-calendar" aria-hidden="true"></i> <span>4 ноя 2017</span></p>
+										<p class="header__complaint-time">20:05 (МСК)</p>
+										<p class="header__complaint-number-order">Заказ № <span class="header__complaint-number">136547</span></p>
+									</div>
+									<div class="content__complaint">
+										<div class="content__complaint-main">
+											<div class="complaint-main__theme"><span class="complaint-main__theme-sp">Тема:</span>Тема</div>
+											<div class="complaint-main__number-order"><span class="complaint-main__theme-sp">Заказ №:</span><a href="#" class="complaint-main__number-link">136547</a></div>
+											<div class="complaint-main__theme"><span class="complaint-main__theme-sp">Серийный № оборудования:</span>465465 4vb 646445</div>
+											<div class="complaint-main__theme"><span class="complaint-main__theme-sp">Наименование оборудования:</span>Наименование оборудования</div>
+											<div class="complaint-main__theme">
+												<div class="complaint-main__theme-last">Текст:</div>
+												<div class="complaint-main__theme-text">Привет, друзья. Однажды,когда я был в десятом класссе, вместо продвинутого информатика, который учил нас паскалю пришла тетя, которая спустя полгода теории стала учить бейсику. Это было очень скучно. Чтобы развлечь себя и класс я написал в паскале "верю-неверю" ака "обмани соседа", поскольку в неу ( и в двадцать одно) мы резались на переменах. Игра была популярна, ведь в неё можно было играть и на уроках. Но информатичка не поверила, что её сделал я и поставила четверку.</div>
+											</div>
+										</div>
+										<div class="content__complaint-sidebar">
+											<p class="content__complaint-sidebar-p">Прикрепленные файлы:</p>
+											<div class="complaint-download__block download__instruction">
+												<i class="fa fa-file-word-o" aria-hidden="true"></i>	
+												<a href="	#" class="download__block-link content-download__block-link" >001.docx</a>
+											</div>
+											<div class="complaint-download__block download__presentation">
+												<i class="fa fa-file-pdf-o" aria-hidden="true"></i>	
+												<a href="	#" class="download__block-link content-download__block-link" >scan2016-09-05.pdf</a>
+											</div>
+											<div class="complaint-download__block download__img">
+												<i class="fa fa-file-image-o" aria-hidden="true"></i>	
+												<a href="	#" class="download__block-link content-download__block-link" >001.jpg</a>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+									<div class="header__complaint">
+										<div class="arrow"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+										<p class="header__complaint-data"><i class="fa fa-calendar" aria-hidden="true"></i> <span>4 ноя 2017</span></p>
+										<p class="header__complaint-time">19:05 (МСК)</p>
+										<p class="header__complaint-number-order">Заказ № <span class="header__complaint-number">136546</span></p>
+									</div>
+									<div class="header__complaint">
+										<div class="arrow"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+										<p class="header__complaint-data"><i class="fa fa-calendar" aria-hidden="true"></i> <span>4 ноя 2017</span></p>
+										<p class="header__complaint-time">18:05 (МСК)</p>
+										<p class="header__complaint-number-order">Заказ № <span class="header__complaint-number">136545</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="notebook__inset">
+								<div class="notebook__inset-profil-company">
+									<div class="profil-company__block">
+										<p class="anketa__block-title profile__block-title profil-company__title">Профиль компании</p>
+										<div class="profil-company__text">
+											Пожалуйста, следите за тем, чтобы здесь были указаны актуальные данные о вашей компании. Это упростит работу наших менеджеров и позволит избежать ошибок.
+										</div>
+									</div>
+									<div class="clearfix"></div>
+									<div class="card-product__info profil-company__info">
+										<div class="card-product__existence profil-company__existence">
+											<p class="card-product__paragraph  profil-company__paragraph">Форма собственности:</p>
+											<p class="card-product__paragraph-normal profil-company__paragraph-normal">ООО <i class="fa fa-pencil" aria-hidden="true"></i></p>
+										</div>
+										<div class="card-product__existence profil-company__existence">
+											<p class="card-product__paragraph profil-company__paragraph">Наименование организации:</p>
+											<p class="card-product__paragraph-normal profil-company__paragraph-normal">«Название» <i class="fa fa-pencil" aria-hidden="true"></i></p>
+										</div>
+										<div class="card-product__existence profil-company__existence">
+											<p class="card-product__paragraph profil-company__paragraph">ИНН:</p>
+											<p class="card-product__paragraph-normal profil-company__paragraph-normal">4566454654654 <i class="fa fa-pencil" aria-hidden="true"></i></p>
+										</div>
+										<div class="card-product__existence profil-company__existence">
+											<p class="card-product__paragraph profil-company__paragraph">ОГРН (ОГРНИП для ИП):</p>
+											<p class="card-product__paragraph-normal profil-company__paragraph-normal">45615487513 <i class="fa fa-pencil" aria-hidden="true"></i></p>
+										</div>
+										<div class="card-product__existence profil-company__existence">
+											<p class="card-product__paragraph profil-company__paragraph">Юридический адрес:</p>
+											<p class="card-product__paragraph-normal profil-company__paragraph-normal">454000, Россия, г. Челябинск, пр. Ленина, 15, офис 1<i class="fa fa-pencil" aria-hidden="true"></i></p>
+										</div>
+										<div class="card-product__existence profil-company__existence">
+											<p class="card-product__paragraph profil-company__paragraph">Почтовый адрес для документов:</p>
+											<p class="card-product__paragraph-normal profil-company__paragraph-normal">454000, Россия, г. Челябинск, пр. Ленина, 15, офис 1 <i class="fa fa-pencil" aria-hidden="true"></i></p>
+										</div>
+										<div class="card-product__existence profil-company__existence">
+											<p class="card-product__paragraph profil-company__paragraph">Телефон:</p>
+											<p class="card-product__paragraph-normal profil-company__paragraph-normal">+7(351)999-99-99 <i class="fa fa-pencil" aria-hidden="true"></i></p>
+										</div>	
+										<div class="card-product__article profil-company__existence">
+											<p class="card-product__paragraph profil-company__paragraph">e-mail:</p>
+											<p class="card-product__paragraph-normal profil-company__paragraph-normal">mail@mail.ru <i class="fa fa-pencil" aria-hidden="true"></i></p>
+										</div>
+										<div class="card-product__price-diler profil-company__existence">
+											<p class="card-product__paragraph profil-company__paragraph">ФИО контактного лица::</p>
+											<p class="card-product__paragraph-normal profil-company__paragraph-normal">Иванова Анастасия Александровна <i class="fa fa-pencil" aria-hidden="true"></i></p>
+										</div>
 
-                </div>
-            </section>
-        </div>
-        <footer class="footer">
-            <div class="container">
-                <div class="footer__copyright-block">
-                    <div class="footer__copyright"><i class="fa fa-copyright" aria-hidden="true"></i> Завод технологического оборудования "Челябторгтехника"
-                    </div>
-                    <div class="footer__protection">Использование материалов сайта разрешено только с указанием источника <a href="#" class="footer__protection-link">www.zto-chtt.ru</a></div>
-                </div>
-                <div class="footer__design">Разработка сайта — <br><a href="#" class="footer__design-link">Рекламное агентство "Априори"</a></div>
-                <div class="footer_logo-designer"><a href="#"><img src="img/logo_designer.jpg" alt=""></a></div>
-            </div>
-        </footer>
-    </div>
-</body>
+									</div>
+									<a href="#" class="item-link profile__btn">Сохранить изменения <i class="fa fa-floppy-o" aria-hidden="true"></i>
+									</a>
+									<div class="profil-company__time">Данные обновлены:
+										<span>19 декабря 2016, 21:00</span>
+									</div>
+								</div>
+							</div>
+							<div class="notebook__inset">
+								<div class="notebook__inset-profil">
+									<div class="notebook__inset-login">
+										<p class="anketa__block-title profile__block-title">Логин</p>
+										<p class="card-product__paragraph-normal inset-login__paragraph--first">Deryugin.andr@gmail.com</p>
+									</div>
+									<div class="notebook__inset-change-login">
+										<div class="call__block profile__pasword">
+											<p class="anketa__block-title profile__block-title">Сменить пароль</p>
+											<label for="" class="profile__label inset-login__paragraph2" >Текущий пароль:</label><input type="pasword" name="name" class="profile__input call__input cont-form__input" placeholder="********" onfocus="placeholder='';"> 
+											<div class="clearfix"></div>
+											<label for="" class="profile__label inset-login__paragraph2" >Новый пароль:</label><input type="pasword" name="phone" class="profile__input call__input cont-form__input" placeholder="********" onfocus="placeholder='';"> 
+											<div class="clearfix"></div>
+											<label for="" class="profile__label inset-login__paragraph2" >Новый пароль(ещё раз)</label><input type="pasword" name="phone" class="profile__input call__input cont-form__input" placeholder="********" onfocus="placeholder='';"><br><br><br>
+											<a href="#" class="item-link inset-profil__btn">Сохранить изменения <i class="fa fa-floppy-o" aria-hidden="true"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<footer class="footer">
+					<div class="container">
+						<div class="footer__copyright-block">
+							<div class="footer__copyright"><i class="fa fa-copyright" aria-hidden="true"></i> Завод технологического оборудования "Челябторгтехника"
+							</div>
+							<div class="footer__protection">Использование материалов сайта разрешено только с указанием источника <a href="#" class="footer__protection-link">www.zto-chtt.ru</a></div>
+						</div>
+						<div class="footer__design">Разработка сайта — <br><a href="#" class="footer__design-link">Рекламное агентство "Априори"</a></div>
+						<div class="footer_logo-designer"><a href="#"><img src="img/logo_designer.jpg" alt=""></a></div>
+					</div>
+				</footer>
+		</div>
+	</body>
 </html>
