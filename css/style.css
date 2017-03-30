@@ -1843,7 +1843,8 @@ padding: 10px 0;}
   margin-right: 10px; }
 
 .registration__block--select {
-  color: #ababab; }
+  color: #ababab;
+  height: 35px; }
 
 /*profile user*/
 .profile__paragraph {
