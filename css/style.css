@@ -2246,19 +2246,19 @@ color: #000;
 color: #000;
     font-size: 16px;
     font-family: "MyriadPro", sans-serif;}
-.complaint__block-input--size-s::-webkit-input-placeholder {
+.registration__block-input::-webkit-input-placeholder {
     color: #ababab;
     font-size: 16px;
     font-family: "MyriadPro", sans-serif; }
-    .complaint__block-input--size-s::-moz-placeholder {
+.registration__block-input::-moz-placeholder {
     color: #ababab;
     font-size: 16px;
     font-family: "MyriadPro", sans-serif; }
-    .complaint__block-input--size-s:-moz-placeholder {
+.registration__block-input:-moz-placeholder {
     color: #ababab;
     font-size: 16px;
     font-family: "MyriadPro", sans-serif; }
-    .complaint__block-input--size-s:-ms-input-placeholder {
+.registration__block-input:-ms-input-placeholder {
     color: #ababab;
     font-size: 16px;
     font-family: "MyriadPro", sans-serif; }
@@ -2271,22 +2271,6 @@ color: #000;
   color: #000;
   /* Firefox 19+ */
   /* Firefox 18- */ }
-  .complaint__block-textarea--size-xl::-webkit-input-placeholder {
-    color: #ababab;
-    font-size: 16px;
-    font-family: "MyriadPro", sans-serif; }
-  .complaint__block-textarea--size-xl::-moz-placeholder {
-    color: #ababab;
-    font-size: 16px;
-    font-family: "MyriadPro", sans-serif; }
-  .complaint__block-textarea--size-xl:-moz-placeholder {
-    color: #ababab;
-    font-size: 16px;
-    font-family: "MyriadPro", sans-serif; }
-  .complaint__block-textarea--size-xl:-ms-input-placeholder {
-    color: #ababab;
-    font-size: 16px;
-    font-family: "MyriadPro", sans-serif; }
 
 .attached-file {
   margin: 5px 0 10px;
@@ -2304,23 +2288,7 @@ color: #000;
 color: #000;
     font-size: 16px;
     font-family: "MyriadPro", sans-serif;}
- .complaint__block-input--size-l::-webkit-input-placeholder {
-    color: #ababab;
-    font-size: 16px;
-    font-family: "MyriadPro", sans-serif; }
-  .complaint__block-input--size-l::-moz-placeholder {
-    color: #ababab;
-    font-size: 16px;
-    font-family: "MyriadPro", sans-serif; }
-  .complaint__block-input--size-l:-moz-placeholder {
-    color: #ababab;
-    font-size: 16px;
-    font-family: "MyriadPro", sans-serif; }
-  .complaint__block-input--size-l:-ms-input-placeholder {
-    color: #ababab;
-    font-size: 16px;
-    font-family: "MyriadPro", sans-serif; }   
-
+   
 .complaint__download-btn {
   width: 24%;
   float: left;
