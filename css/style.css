@@ -249,6 +249,7 @@ h3 {
 /*Navigation*/
 .main-menu-nav {
   height: 50px;
+  min-width: 1120px;
   background: #333;
   box-sizing: border-box; }
 
@@ -3064,8 +3065,7 @@ color: #000;
 }
 
 @media only screen and (max-width: 1120px){
-  .main-menu-nav {
-  width: 1120px; }
+  
   .wrapper {
   width: 1120px; }
   .footer {
