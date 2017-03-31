@@ -3067,7 +3067,7 @@ color: #000;
   .main-menu-nav {
   width: 1120px; }
   .wrapper {
-  min-height: 1120px; }
+  width: 1120px; }
   .footer {
     width: 1120px;
 }
