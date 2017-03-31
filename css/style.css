@@ -3071,6 +3071,9 @@ color: #000;
   
   .wrapper {
   width: 1120px; }
+  .card-product__paragraph-normal{
+    font-size: 16px;
+  }
   .footer {
     width: 1120px;
 }
