@@ -249,7 +249,6 @@ h3 {
 /*Navigation*/
 .main-menu-nav {
   height: 50px;
-  width: 100%; 
   background: #333;
   box-sizing: border-box; }
 
@@ -3064,6 +3063,8 @@ color: #000;
     margin: 50px 0 25px;
 }
 
-    
-/*end mz*/}
+@media only screen and (max-width: 1024px){
+  .main-menu-nav {
+  width: 1024px; }
+}
 
