@@ -3063,10 +3063,13 @@ color: #000;
     margin: 50px 0 25px;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1120px){
   .main-menu-nav {
   width: 1120px; }
   .wrapper {
   min-height: 1120px; }
+  .footer {
+    width: 1120px;
+}
 }
 
