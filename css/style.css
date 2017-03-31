@@ -1729,6 +1729,8 @@ padding: 10px 0;}
   margin-bottom: 70px; }
 
 .production-block__description {
+  overflow: hidden; }
+  .production-block__description:last-child {
   overflow: hidden;
   margin-bottom: 50px; }
 
