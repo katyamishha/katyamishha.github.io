@@ -1748,6 +1748,9 @@ padding: 10px 0;}
 .production-block__description-photo {
   width: 50%;
   float: left; }
+.production-block__description-photo img{
+  width: 100%;
+}
 
 .production-block__description-photo:nth-child(3) {
   margin-top: 30px; }
