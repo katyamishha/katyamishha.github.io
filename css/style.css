@@ -3066,5 +3066,7 @@ color: #000;
 @media only screen and (max-width: 1024px){
   .main-menu-nav {
   width: 1120px; }
+  .wrapper {
+  min-height: 1120px; }
 }
 
