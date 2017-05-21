@@ -1,0 +1,57 @@
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 52%;
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    opacity: .75;
+}
+
+.slick-prev
+{
+    left: 20px;
+    z-index: 1000;
+}
+.slick-prev span{
+    display: block;
+    margin: 0 auto;
+    width: 8px;
+    height: 13px;
+    background: #fff url(../img/spritesheet.png) no-repeat -5px -5px;
+}
+
+.slick-next
+{
+    right: 20px;
+    
+}
+.slick-next span{
+    display: block;
+    margin: 0 auto;
+    width: 8px;
+    height: 13px;
+    background: #fff url(../img/spritesheet.png) no-repeat -23px -5px;
+}
+.slick-prev:hover,
+.slick-next:hover{
+    opacity: 1;
+}
+
