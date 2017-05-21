@@ -719,3 +719,33 @@ nav a#pull {
     font-size: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  .container {
+    width: 300px;
+  }
+  nav .menu {
+    margin-right: 35px;
+  }
+  nav .menu > li {
+    margin-right: 5px;
+  }
+  nav .menu > li a {
+    font-size: 7px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .block_slider p {
+    font-size: 14px;
+  }
+  .text_process {
+    font-size: 12px;
+  }
+  .block_process {
+    height: 50px;
+  }
+  .block_icon {
+    display: none;
+  }
+}
